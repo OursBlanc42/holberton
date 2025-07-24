@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e {a..z}{a..z}"\n" | tr -d " " | grep oo --invert-match | head -n -1

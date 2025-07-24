@@ -1,0 +1,19 @@
+total 68
+drwxrwxr-x 2 simon simon 4096 Oct 14 14:54 .
+drwxrwxr-x 6 simon simon 4096 Oct 14 13:42 ..
+-rwxrwx--x 1 simon simon   32 Oct 14 13:53 0-hello_world
+-rwxrwx--x 1 simon simon   28 Oct 14 13:55 1-confused_smiley
+-rwxrwx--x 1 simon simon   28 Oct 14 13:56 2-hellofile
+-rwxrwx--x 1 simon simon   39 Oct 14 13:56 3-twofiles
+-rwxrwx--x 1 simon simon   35 Oct 14 13:58 4-lastlines
+-rwxrwx--x 1 simon simon   35 Oct 14 13:58 5-firstlines
+-rwxrwx--x 1 simon simon   38 Oct 14 14:10 6-third_line
+-rwxrwx--x 1 simon simon   90 Oct 14 14:51 7-file
+-rwxrwx--x 1 simon simon   63 Oct 14 14:48 7-file_BACKUP
+-rwxrwx--x 1 simon simon   36 Oct 14 14:54 8-cwd_state
+-rw-rw-r-- 1 simon simon   12 Oct 14 14:51 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rw-rw-r-- 1 simon simon   98 Oct 14 14:09 iacta
+-rw-rw-r-- 1 simon simon    0 Oct 14 14:54 ls_cwd_content
+-rw-rw-r-- 1 simon simon   39 Oct 14 13:48 README.md
+-rw-rw-r-- 1 simon simon    5 Oct 14 14:42 test
+-rw-rw-r-- 1 simon simon    7 Oct 14 14:42 test2

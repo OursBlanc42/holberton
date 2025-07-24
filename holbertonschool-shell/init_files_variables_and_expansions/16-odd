@@ -1,0 +1,2 @@
+#!/bin/bash
+ls | grep -n '' | xargs -I {} bash -c 'echo $(( $(echo {} | cut -d ":" -f1) % 2 )):$(echo {} | cut -d ":" -f2)' | grep '1:' | cut -d ":" -f2 | sort

@@ -1,0 +1,338 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
+    <mxGraphModel dx="2049" dy="1199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="6a7d8f32e03d9370-50" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" target="6a7d8f32e03d9370-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011.0411786237191" y="623.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-56" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" target="6a7d8f32e03d9370-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="620.0079742585337" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-48" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" source="6a7d8f32e03d9370-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985.8569321533923" y="623.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="353.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="340" />
+              <mxPoint x="560" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-1" target="QpWYU8cM9HjWK1L_ZNcw-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="920" />
+              <mxPoint x="980" y="920" />
+              <mxPoint x="980" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-1" value="Client" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.laptop_2;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="247.04" width="200.43" height="149.46" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-3" target="QpWYU8cM9HjWK1L_ZNcw-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="369" />
+              <mxPoint x="740" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="380" />
+              <mxPoint x="320" y="350" />
+              <mxPoint x="284" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-3" value="DNS Resolver" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="122.01" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-4" target="QpWYU8cM9HjWK1L_ZNcw-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="874" y="903" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="900" />
+              <mxPoint x="880" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-4" value="Firewall&lt;div&gt;(allows only HTTPS on port 443)&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.firewall;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="629" y="856.5" width="75" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-8" value="Authoritative DNS Root Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="950" y="40" width="122.01" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-3">
+          <mxGeometry x="0.3236" relative="1" as="geometry">
+            <mxPoint x="940" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="651" y="100" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="120" />
+              <mxPoint x="670" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-13" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="137.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-19" value="What is the adress of &quot;www.google.com&quot; ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-20" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="356" y="305" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-21" value="Hey Root ! 192.5.6.30... &lt;br&gt;What is the adress of &quot;www.google.com&quot; ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="729" y="50" width="128.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-22" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="690" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-23" value="I dont know. I just know &quot;.com&quot; . Ask it :&lt;div&gt;&lt;code data-end=&quot;274&quot; data-start=&quot;254&quot;&gt;a.gtld-servers.net&lt;/code&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code data-end=&quot;289&quot; data-start=&quot;277&quot;&gt;192.5.6.30&lt;/code&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="120" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-25" value="Authoritative DNS Server&lt;div&gt;&lt;div style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;code data-end=&quot;274&quot; data-start=&quot;254&quot;&gt;a.gtld-servers.net&lt;/code&gt;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;code data-end=&quot;289&quot; data-start=&quot;277&quot;&gt;192.5.6.30&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="260" width="122.01" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="320" as="sourcePoint" />
+            <mxPoint x="950" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-28" value="Hey &quot;.com&quot; !&lt;br&gt;What is the adress of &quot;www.google.com&quot; ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="270" width="128.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-29" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="729" y="275" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="340" as="sourcePoint" />
+            <mxPoint x="719" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-31" value="I dont know. I just know &quot;.google.com&quot;&lt;br&gt;Ask it !&lt;br&gt;&lt;div&gt;&lt;code data-end=&quot;274&quot; data-start=&quot;254&quot;&gt;ns1.google.com&lt;/code&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;code data-end=&quot;289&quot; data-start=&quot;277&quot;&gt;216.239.32.10&lt;/code&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="340" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-32" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="790" y="366.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-35" target="QpWYU8cM9HjWK1L_ZNcw-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="600" />
+              <mxPoint x="730" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-35" value="Authoritative DNS Server&lt;div&gt;&lt;div style=&quot;font-size: 12px; text-wrap: wrap;&quot;&gt;&lt;div&gt;&lt;code data-end=&quot;274&quot; data-start=&quot;254&quot;&gt;ns1.google.com&lt;/code&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: monospace;&quot;&gt;216.239.32.10&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="500" width="122.01" height="157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-37" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="760" y="530" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-39" value="Hey &quot;.google.com&quot; !&lt;br&gt;What is the adress of &quot;www.google.com&quot; ?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="520" width="128.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-41" value="It&#39;s 142.250.99.94" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="600" width="128.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-42" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="759" y="610" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-43" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="370" y="387.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-45" value="It&#39;s 142.250.99.94" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="380" width="128.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-47" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-48" value="Hold on… Let me check… HTTPS on port 443? Alright, you can pass!&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="638.25" y="760" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-49" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="599" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-68" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="885.6700000000001" y="856.5" width="78.33000000000004" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-63" value="Load Balancer" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;spacingTop=11;" vertex="1" parent="QpWYU8cM9HjWK1L_ZNcw-68">
+          <mxGeometry width="65" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-64" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="QpWYU8cM9HjWK1L_ZNcw-68">
+          <mxGeometry x="40" y="59.5" width="38.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-76" value="Send request with HTTPS via TCP/IP 142.250.99.94:443&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Hey, i want a secure connection HTTPS/TLS with you ;) &quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-91" value="The load balancer recieve the request and dispatch to the available server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="863.75" y="780" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-92" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="824.5" y="790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-98" value="Web server 1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="720" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-99" target="QpWYU8cM9HjWK1L_ZNcw-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="986.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1480" y="990" />
+              <mxPoint x="1480" y="982" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117.24137931034483" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1258" y="1160" />
+              <mxPoint x="117" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-99" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_server;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="941.5" width="76.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-63" target="QpWYU8cM9HjWK1L_ZNcw-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1258" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-103" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="856.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-104" value="&quot;Hello Web Server, let&#39;s do the TLS handshake. Show me your certificate !&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="840" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-107" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1040" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-108" value="&quot;Sure ! Here is my certificat, signed by Let&#39;s Encrypt&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="920" width="121.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-111" value="13" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1122.01" y="936" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.848;entryY=0.823;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-99" target="QpWYU8cM9HjWK1L_ZNcw-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="1000" />
+              <mxPoint x="990" y="910" />
+              <mxPoint x="250" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-115" value="Looks good ! Let&#39;s start encrypted communication. My real request&lt;br&gt;&amp;nbsp;(i want the home page)&lt;div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;GET / HTTP/1.1&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;monospace&quot;&gt;Host: www.google.fr&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1010" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-123" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1500" y="939.88" width="74.75999999999999" height="93.25000000000011" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-120" value="App Server" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.tower_server;spacingTop=7;" vertex="1" parent="QpWYU8cM9HjWK1L_ZNcw-123">
+          <mxGeometry width="65" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-121" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.worker;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="QpWYU8cM9HjWK1L_ZNcw-123">
+          <mxGeometry x="40" y="56.750000000000114" width="34.76" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-125" value="Let’s give this request to the chef, the App Server, to cook the response." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="930" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-126" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="945" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-129" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;spacing=2;spacingBottom=0;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="690" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-130" value="Database server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-120" target="QpWYU8cM9HjWK1L_ZNcw-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="800" />
+              <mxPoint x="1490" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-132" value="&amp;nbsp;Please give me the user profile, recent orders, and site content." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="826.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-133" value="16" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="841.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-135" value="Here you go !&lt;div&gt;All fresh data ready to use&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="826.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-136" value="17" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="840" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-137" value="With data from the database, I can build the page and send it back to the Web Server." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="1010" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QpWYU8cM9HjWK1L_ZNcw-120" target="QpWYU8cM9HjWK1L_ZNcw-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="1010" />
+              <mxPoint x="1350" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-140" value="&lt;div&gt;18&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1025" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-142" value="Web server 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="909.88" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-144" value="19" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontColor=#660000;fontSize=16;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="651.5" y="1110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpWYU8cM9HjWK1L_ZNcw-145" value="Your request is complete, here’s your page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689" y="1100" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script retrieves and displays the IP addresses attached to the current host
+ifconfig | grep -w "inet" | awk '{print $2}'

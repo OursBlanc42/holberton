@@ -1,0 +1,2 @@
+# Ignore all main file between 0 et 9 task
+[0-9]*-main.c

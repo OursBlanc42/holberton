@@ -1,0 +1,166 @@
+# Task 0 : Basics of HTTP/HTTPS
+
+## Intro
+
+This document is a brief summary explaining the differences between HTTP and HTTPS.
+A representation or overview of the structure of an HTTP request and response.
+Lists of common HTTP methods and status codes, with descriptions and possible use cases.
+
+## HTTP
+
+**HTTP** stands for **Hypertext Transfer Protocol**
+It is a communication protocol between a client (e.g., browser) and a server (e.g., website)
+
+### Basic Operation:
+
+When the user wants to access a website, they type the website's address (URL), and the browser sends a request to the server.
+
+For example, if the user wants to access *"http://www.truc.fr"*, a request is sent to the server to obtain the HTML file that makes up the page.
+*(For more details: packets are transmitted by the TCP/IP transport layer, and the server's address is obtained through DNS resolution, but this is not part of the requirements for this task. Closing the parenthesis)*
+
+The server then returns the requested page to the client again via an HTTP response.
+
+This page is then analyzed by the browser to check if anything else is needed (a CSS file, an image, a video, etc.) and exchanges again via HTTP to obtain all the page information.
+
+The browser then reconstructs the page.
+
+## HTTPS
+
+**HTTPS** stands for **Hypertext Transfer Protocol Secure**.
+Indeed, by default, exchanges via HTTP **are in plain text**. This means that anyone who intercepts an HTTP exchange can see a lot of information (such as the content of the request or response). For sensitive data (e.g., banking data), it is important to hide this information.
+
+HTTPS, as its name suggests, allows **encrypting a large part of the information** via the protocol: **TLS** (**Transport Layer Security**)
+
+*(For more details: the IP address, domain name, packet size, transmission date, and TLS handshake are not encrypted to allow packet routing. Closing the parenthesis)*
+
+## Detailed Operation of an HTTP GET Request
+
+### The Request
+
+For this example, we will use HTTP, but the principle remains largely the same for HTTPS.
+
+Alice wants to access "http://www.bob.fr"
+
+Her browser sends an HTTP GET request.
+
+#### Example:
+Here is a very minimalistic example:
+
+```vb
+GET /index.html HTTP/1.1
+Host: bob.fr
+Accept-Language: fr
+```
+
+Let's break down each part
+
+##### GET
+Method that defines the operation the client wants to perform.
+GET is used here to receive data.
+
+##### /index.html
+The path of the resource to be accessed (by default, websites have their main page called *"index.html"*)
+
+*(For more details: We do not specify obvious elements such as the HTTP protocol, for example)*
+
+##### HTTP/1.1
+Specifies the version of the protocol being used.
+HTTP/1.1 is an older version but readable for humans.
+HTTP/2 is a more recent format. Messages are written in binary structures readable only by computers. This protocol is used, among other things, to improve performance.
+
+##### Host: bob.fr
+Specifies the host (the server's address)
+
+*(For more details: If no port is specified, the default port for the service will be used (80 for HTTP, 443 for HTTPS))*
+
+##### Accept-Language: fr
+After Host, additional metadata can be specified via what are called *headers*.
+This allows the client and server to transmit additional information.
+Here, for example, we provide information about the context of the request: *"Receive only pages in French."*
+
+##### For more details
+This request is minimalistic. Depending on the use cases, other headers or optional lines can be added.
+
+### The Response
+
+Once the request is sent, here is the response to this request returned by the server:
+
+```vb
+HTTP/1.1 200 OK
+Date: Sat, 09 Oct 2010 14:28:02 GMT
+Server: Apache
+Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+Content-Type: text/html
+Content-Length: 129
+Content-Language: fr
+
+<html>
+  <body>
+  	<h1>Bienvenue sur le site de Bob ! (Version française)</h1>
+	<p>"Happy little trees !"</p>
+  </body>
+</html>
+
+```
+
+
+#### Detail of Each Line
+
+##### HTTP/1.1 200 OK
+- **HTTP/1.1** Specifies the version of the protocol used for the response.
+- **200** Displays an HTTP status code (we will discuss this further). Here, the code 200 means that everything went well.
+- **OK** is a status message accompanying the code 200.
+
+##### Date: Sat, 09 Oct 2010 14:28:02 GMT
+Indicates the date and time of the server at the time of the response.
+
+##### Server: Apache
+Indicates the type of web server that responded.
+*(For more details: it could be Nginx, Caddy, etc...)*
+
+##### Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+Indicates the date of the last modification of the requested resource.
+
+##### Content-Type: text/html
+Specifies that the type of content requested is of type `text/html`.
+
+##### Content-Length: 127
+Specifies the size of the content sent in bytes.
+*(Allows the browser to verify the final received size with the theoretical size to know if it has received everything)*
+
+##### Content-Language: fr
+Indicates the language of the content sent.
+Our request had a header specifying that we wanted the content in French.
+Of course, the website must be designed to display multiple languages, and these features (called "content negotiation") must be implemented.
+
+#### The Content
+And finally, the actual response containing the HTML of the requested page.
+The browser will then analyze this HTML code and make additional requests to load associated resources (CSS, images, fonts, etc...)
+
+### Most Frequent HTTP Status Codes
+We have already seen the code 200, which means that everything went well. There are others that are grouped by family.
+
+Indeed, these codes consist of three digits, and the first digit indicates at what level the error originates:
+
+- **1xx (informational)**
+- **2xx (successful)**
+- **3xx (redirection)**
+- **4xx (client errors)**
+- **5xx (server errors)**
+
+#### 100 - Continue
+Indicates that everything is fine and we are waiting for the rest of the request.
+
+#### 200 - OK
+As seen previously, if we receive a code 200, it means that everything went well.
+
+#### 310 - Too many redirects
+Indicates that the request has undergone too many redirects (via servers or proxies) and this impacts the request.
+
+#### 404 - Not found
+One of the most well-known, this code means that the resource was not found (typically if trying to access a page that does not exist).
+
+#### 500 - Internal Server Error
+Indicates that the server encountered a problem and could not execute the request (without additional information).
+
+
